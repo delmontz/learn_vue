@@ -4,3 +4,5 @@ var app = new Vue({
       hoge: 'hello world!!'
    }
 });
+
+console.log(app.hoge);
