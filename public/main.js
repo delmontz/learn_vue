@@ -3,6 +3,11 @@ var app = new Vue({
    data: {
       hoge: 'hello world!!',
       items: ['デルモンテ', 'カゴメ', 'キッコーマン']
+   },
+   methods: {
+      pochitto: function(event){
+         alert(event.target);
+      }
    }
 });
 
