@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <title>Vue.js　勉強中</title>
-      <link href="main.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
    </head>
    <body>
       <div id="app">
@@ -14,6 +14,7 @@
          <button v-on:click="pochitto">→ボタン←</button>
          <p>入力値:{{str}}</p>
          <input v-model="str"> <!-- v-model.number　とすると数値として受け取れる -->
+         <h1 v-if="show">デーモンの召喚</h1>
       </div>
       <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
       <script src="main.js"></script>

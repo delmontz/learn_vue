@@ -3,7 +3,8 @@ var app = new Vue({
    data: {
       hoge: 'hello world!!',
       items: ['デルモンテ', 'カゴメ', 'キッコーマン'],
-      str: '初期値'
+      str: '初期値',
+      show: true
    },
    methods: {
       pochitto: function(event){
